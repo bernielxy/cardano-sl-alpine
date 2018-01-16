@@ -1,0 +1,11 @@
+version: '3'
+services:
+  cardano-sl:
+    image: sharkspeed/cardano-sl-alpine:latest
+    network_mode: "host"
+    ports:
+      - "8090:8090"
+      - "8080:8080"
+    volumes:
+      - ./cardano/db:/home/cardano/cardano-sl/db
+      - ./cardano/state-wallet-mainnet:/home/cardano/cardano-sl/state-wallet-mainnet
