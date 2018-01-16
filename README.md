@@ -22,10 +22,9 @@ If you want run a cardano node in background:
 
 Both of above commands will persist block files to local disk, so your can find block files in `$(pwd)/cardano/state-wallet-mainnet/db/blocks/data`
 
-Q&A:
+##Q&A:
 
 - How to test the api of cardano node ?
-
 
 I don't know why the api of cardano node only can be accessed inside docker.
 
@@ -36,6 +35,8 @@ Go into docker:
 Test api with curl:
 
 `curl --cacert server.cert https://localhost:8090/api/settings/version` (You can find cert file in `state-wallet-mainnet/tls`)
+
+## Others
 
 Please feel free to ask me if you have any questions.
 
