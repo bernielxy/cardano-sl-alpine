@@ -36,3 +36,9 @@ Go into docker:
 Test api with curl:
 
 `curl --cacert server.cert https://localhost:8090/api/settings/version` (You can find cert file in `state-wallet-mainnet/tls`)
+
+Please feel free to ask me if you have any questions.
+
+My Cardano Address:
+
+DdzFFzCqrht31ymDDCZVJaBict2ouDS6Y58ZBX8uohwBgcSD6iSivuErhQpSMvZPgrapEJ5CbGMrK2Ga9pMWEGSHS7WtUVCBABCNxUuP
