@@ -2,13 +2,17 @@
 
 > a docker image for cardano-sl based on alpine
 
+[cardano-sl Github Repo](https://github.com/input-output-hk/cardano-sl)
+
 ## Usage
 
-### Build docker
+There are two ways to use this repo: build docker image or pull docker image.
+
+### Build docker image
 
 `docker build . -f Dockerfile -t [YOUR_DOCKER_TAG_NAME]`
 
-### Pull docker from docker store
+### Pull docker image from docker store
 
 `docker pull sharkspeed/cardano-sl-alpine`
 
@@ -35,6 +39,8 @@ Go into docker:
 Test api with curl:
 
 `curl --cacert server.cert https://localhost:8090/api/settings/version` (You can find cert file in `state-wallet-mainnet/tls`)
+
+You can find more apis to have a try [here](https://cardanodocs.com/technical/wallet/api/)
 
 ## Others
 
