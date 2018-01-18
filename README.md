@@ -2,6 +2,8 @@
 
 > a docker image for cardano-sl based on alpine
 
+[cardano-sl Github Repo](https://github.com/input-output-hk/cardano-sl)
+
 ## Usage
 
 There are two ways to use this repo: build docker image or pull docker image.
