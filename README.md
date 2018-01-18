@@ -4,6 +4,8 @@
 
 [cardano-sl Github Repo](https://github.com/input-output-hk/cardano-sl)
 
+[daedalus Github Repo](https://github.com/input-output-hk/daedalus)
+
 ## Usage
 
 There are two ways to use this repo: build docker image or pull docker image.
